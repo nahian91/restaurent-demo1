@@ -26,7 +26,7 @@
                   </div>
                </div>
             </div>
-            <div class="row">
+            <div class="row g-0">
                <div class="col-lg-3 col-sm-4">
                   <a href="assets/img/gallery/gallery-1.jpg" class="single_gallery">
                   <img src="assets/img/gallery/gallery-1.jpg" alt="" />

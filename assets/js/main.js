@@ -37,28 +37,23 @@
 			}
 		});
 
-
-		/* Counter Up Active
-		============================*/
-		$('.counter').counterUp({
-			delay: 10,
-			time: 1000
+		/* One Page Nav */
+		$('#menu-cat').onePageNav({
+			currentClass: 'current',
+			changeHash: false,
+			scrollSpeed: 750,
+			scrollThreshold: 0.5,
+			easing: 'swing',
+			scrollOffset: 60
 		});
-
 
 		/* Magnific Image Popup
 		============================*/
-		$('.gallery').magnificPopup({
+		$('.single_gallery').magnificPopup({
 			type: 'image',
 			gallery: {
 				enabled: true
 			}
-		});
-		
-		/* Magnific Video Popup
-		============================*/
-		$('.video-popup').magnificPopup({
-			type: 'iframe'
 		});
 
 

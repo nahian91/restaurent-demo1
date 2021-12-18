@@ -15,7 +15,7 @@
       </section>
 	  <!-- Page Header Area End -->
 	  <!-- Contact Area Start -->
-      <section class="contact-area pt-60">
+      <section class="contact-area pt-100">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
@@ -35,15 +35,15 @@
                      <h2>our address</h2>
                   </div>
                   <div class="single_address">
-                     <i class="fa fa-phone"></i>
+                     <i class="fas fa-phone-alt"></i>
                      <p>phone: <span>+009911223</span></p>
                   </div>
                   <div class="single_address">
-                     <i class="fa fa-envelope"></i>
+                     <i class="far fa-envelope"></i>
                      <p>email: <span>demo@demo.com</span></p>
                   </div>
                   <div class="single_address">
-                     <i class="fa fa-map-marker"></i>
+                     <i class="fas fa-map-marker-alt"></i>
                      <p>address: <span>123, newyork, usa</span></p>
                   </div>
                </div>
