@@ -1,30 +1,30 @@
 <?php include ('header.php'); ?>
-	  <!-- Page Header Area Start -->
-      <section class="page-header">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-12">
-                  <h2>Reservation</h2>
-                  <ul>
-                     <li><a href="">Home</a> &nbsp;/</li>
-                     <li>Reservation</li>
-                  </ul>
-               </div>
-            </div>
+<!-- Page Header Area Start -->
+<section class="page-header">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-12">
+            <h2>Reservation</h2>
+            <ul>
+               <li><a href="">Home</a> &nbsp;/</li>
+               <li>Reservation</li>
+            </ul>
          </div>
-      </section>
-	  <!-- Page Header Area End -->
-	  <!-- Reservaton Area Start -->
-      <section class="reservation pt-100 pb-100">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-7 col-sm-12 mx-auto">
-                  <div class="section-title text-center">
-                     <p>Book your table now</p>
-                     <h4>Best dining experience</h4>
-                     <span></span>
-                  </div>
-                  <form action="#" class="reservation-form">
+      </div>
+   </div>
+</section>
+<!-- Page Header Area End -->
+<!-- Reservaton Area Start -->
+<section class="reservation pt-100 pb-100">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-7 col-sm-12 mx-auto">
+            <div class="section-title text-center mb-60">
+               <p>Book your table now</p>
+               <h4>Best dining experience</h4>
+               <span></span>
+            </div>
+            <form action="#" class="reservation-form">
                <div class="row">
                   <div class="col-md-4">
                      <div class="single-booking">
@@ -63,8 +63,8 @@
                   </div>
                </div>
             </form>
-               </div>
-            </div>
          </div>
-      </section>
-	  <?php include('footer.php');?>
+      </div>
+   </div>
+</section>
+<?php include('footer.php');?>

@@ -56,6 +56,12 @@
 			}
 		});
 
+		/* Magnific Video Popup
+		============================*/
+		$('.video-play').magnificPopup({
+			type: 'iframe'
+		});
+
 
 	});
 

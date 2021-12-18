@@ -1,4 +1,5 @@
 <?php include('header.php');?>
+
 <!-- Slider Area Start -->
 <section class="slider-area" id="home">
    <div class="slider owl-carousel">
@@ -58,7 +59,9 @@
       </div>
    </div>
 </section>
-<!-- Slider Area Start -->
+<!-- Slider Area End -->
+
+<!-- About Area Start -->
 <section class="about-area pt-100 pb-100" id="about">
    <div class="container">
       <div class="row">
@@ -102,6 +105,9 @@
       </div>
    </div>
 </section>
+<!-- About Area End -->
+
+<!-- Top Cat Area Start -->
 <section class="top_cat">
    <div class="container">
       <div class="row">
@@ -114,6 +120,9 @@
       </div>
    </div>
 </section>
+<!-- Top Cat Area End -->
+
+<!-- Gallery Area Start -->
 <section class="gallery-area pt-100 pb-100">
    <div class="container">
    <div class="row">
@@ -168,36 +177,61 @@
       </div>
    </div>
 </section>
-<section class="why-choose black-bg pt-100 pb-100" style="background-image:url('assets/img/top_cta.jpg')">
-   <div class="container">
-      <div class="row text-center">
-         <div class="col-xl-3">
-            <div class="single-process">
-               <h6>Check Menu <span>1</span></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+<!-- Gallery Area End -->
+
+<!-- Testimonials Area Start -->
+<section class="testimonial-area pb-100 pt-100" id="testimonials" style="background-image:url('assets/img/testimonial-back.jpg')">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                  <div class="section-title text-center mb-60">
+                     <p>Book your table now</p>
+                     <h4>what clients say</h4>
+                     <span></span>
+                  </div>
+               </div>
             </div>
          </div>
-         <div class="col-xl-3">
-            <div class="single-process">
-               <h6>Choose food <span>2</span></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="testimonials owl-carousel">
+                     <div class="single-testimonial">
+                        <div class="testi-img">
+                           <img src="assets/img/testimonials/03.png" alt="" />
+                        </div>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint soluta voluptas. "</p>
+                        <h4>john doe <span>web developer</span></h4>
+                     </div>
+                     <div class="single-testimonial">
+                        <div class="testi-img">
+                           <img src="assets/img/testimonials/01.png" alt="" />
+                        </div>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint soluta voluptas. "</p>
+                        <h4>john doe <span>web developer</span></h4>
+                     </div>
+                     <div class="single-testimonial">
+                        <div class="testi-img">
+                           <img src="assets/img/testimonials/04.png" alt="" />
+                        </div>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint soluta voluptas. "</p>
+                        <h4>john doe <span>web developer</span></h4>
+                     </div>
+                     <div class="single-testimonial">
+                        <div class="testi-img">
+                           <img src="assets/img/testimonials/02.png" alt="" />
+                        </div>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint soluta voluptas. "</p>
+                        <h4>john doe <span>web developer</span></h4>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
-         <div class="col-xl-3">
-            <div class="single-process">
-               <h6>place order <span>3</span></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            </div>
-         </div>
-         <div class="col-xl-3">
-            <div class="single-process">
-               <h6>Recieve & Enjoy! <span>4</span></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+      </section>
+      <!-- Testimonilas Area End -->
+
+<!-- Team Area Start -->
 <section class="team-area pt-100 pb-100" id="team">
    <div class="container">
       <div class="row">
@@ -289,17 +323,25 @@
       </div>
    </div>
 </section>
+<!-- Team Area End -->
+
+<!-- Video Area Start -->
 <section class="video-area text-center pt-100 pb-100">
    <div class="container">
       <div class="row">
          <div class="col-xl-8 mx-auto">
+            <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="video-play">
             <i class="far fa-play-circle"></i>
+            </a>            
             <h4>Watch a video presentation.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
          </div>
       </div>
    </div>
 </section>
+<!-- Video Area End -->
+
+<!-- Reservation Area Start -->
 <section class="reservation pt-100 pb-60" style="background-image:url('assets/img/reservation-back.')">
    <div class="container">
       <div class="row">
@@ -352,5 +394,8 @@
       </div>
    </div>
 </section>
-<?php include('footer.php');?>
+<!-- Reservation Area End -->
 
+
+
+<?php include('footer.php');?>
