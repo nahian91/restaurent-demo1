@@ -65,7 +65,7 @@
 <section class="about-area pt-100 pb-100" id="about">
    <div class="container">
       <div class="row">
-         <div class="col-xl-8 mx-auto text-center">
+         <div class="col-md-10 mx-auto text-center">
             <div class="section-title text-center mb-60">
                <p>who we are?</p>
                <h4>about us</h4>
@@ -126,7 +126,7 @@
 <section class="gallery-area pt-100 pb-100">
    <div class="container">
    <div class="row">
-      <div class="col-xl-12">
+      <div class="col-md-10 mx-auto text-center">
          <div class="section-title text-center mb-60">
             <p>Book your table now</p>
             <h4>Exclusive Gallery</h4>
@@ -183,8 +183,8 @@
 <section class="testimonial-area pb-100 pt-100" id="testimonials" style="background-image:url('assets/img/testimonial-back.jpg')">
          <div class="container">
             <div class="row">
-               <div class="col-lg-10 mx-auto">
-                  <div class="section-title text-center mb-60">
+               <div class="col-md-10 mx-auto text-center">
+                  <div class="section-title mb-60">
                      <p>Book your table now</p>
                      <h4>what clients say</h4>
                      <span></span>
@@ -235,8 +235,8 @@
 <section class="team-area pt-100 pb-100" id="team">
    <div class="container">
       <div class="row">
-         <div class="col-xl-8 mx-auto text-center">
-            <div class="section-title text-center mb-60">
+         <div class="col-md-10 mx-auto text-center">
+            <div class="section-title mb-60">
                <p>experienced team</p>
                <h4>our chefs</h4>
                <span></span>
@@ -244,7 +244,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-xl-3">
+         <div class="col-md-3">
             <div class="single-team">
                <img src="assets/img/team/team-1.jpg" alt="">
                <div class="team-hover">
@@ -263,7 +263,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xl-3">
+         <div class="col-md-3">
             <div class="single-team">
                <img src="assets/img/team/team-2.jpg" alt="">
                <div class="team-hover">
@@ -282,7 +282,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xl-3">
+         <div class="col-md-3">
             <div class="single-team">
                <img src="assets/img/team/team-3.jpg" alt="">
                <div class="team-hover">
@@ -301,7 +301,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xl-3">
+         <div class="col-md-3">
             <div class="single-team">
                <img src="assets/img/team/team-4.jpg" alt="">
                <div class="team-hover">
@@ -329,7 +329,7 @@
 <section class="video-area text-center pt-100 pb-100">
    <div class="container">
       <div class="row">
-         <div class="col-xl-8 mx-auto">
+         <div class="col-md-10 mx-auto text-center">
             <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="video-play">
             <i class="far fa-play-circle"></i>
             </a>            
@@ -345,7 +345,7 @@
 <section class="reservation pt-100 pb-60" style="background-image:url('assets/img/reservation-back.')">
    <div class="container">
       <div class="row">
-         <div class="col-lg-10 mx-auto">
+         <div class="col-md-10 mx-auto text-center">
             <div class="section-title text-center mb-60">
                <p>Book your table now</p>
                <h4>Best dining experience</h4>

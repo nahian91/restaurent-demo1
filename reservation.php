@@ -18,8 +18,8 @@
 <section class="reservation pt-100 pb-100">
    <div class="container">
       <div class="row">
-         <div class="col-lg-7 col-sm-12 mx-auto">
-            <div class="section-title text-center mb-60">
+         <div class="col-md-10 mx-auto text-center">
+            <div class="section-title mb-60">
                <p>Book your table now</p>
                <h4>Best dining experience</h4>
                <span></span>

@@ -1,12 +1,12 @@
 <footer class="footer">
    <div class="container">
       <div class="row">
-         <div class="col-xl-3 col-md-2 col-sm-6">
+         <div class="col-md-3">
             <div class="single_footer">
                <img src="assets/img/logo.png" class="img-responsive" alt="">
             </div>
          </div>
-         <div class="col-xl-2 col-md-3 col-sm-6">
+         <div class="col-md-2">
             <div class="single_footer arrow">
                <h4>quick links</h4>
                <ul>
@@ -18,7 +18,7 @@
                </ul>
             </div>
          </div>
-         <div class="col-md-4 col-sm-6">
+         <div class="col-md-4">
             <div class="single_footer arrow">
                <h4>opening hours</h4>
                <ul>
@@ -28,7 +28,7 @@
                </ul>
             </div>
          </div>
-         <div class="col-md-3 col-sm-6">
+         <div class="col-md-3">
             <div class="single_footer">
                <h4>contact us</h4>
                <ul>
