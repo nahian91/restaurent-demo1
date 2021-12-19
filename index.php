@@ -69,7 +69,7 @@
             <div class="section-title text-center mb-60">
                <p>who we are?</p>
                <h4>about us</h4>
-               <span></span>
+               
             </div>
          </div>
       </div>
@@ -91,7 +91,6 @@
                   <li><i class="fas fa-angle-double-right"></i> Creative Design</li>
                   <li><i class="fas fa-angle-double-right"></i> Digital Marketing &amp; Branding</li>
                </ul>
-               <a href="" class="box-btn">read more</a>
             </div>
          </div>
          <div class="col-xl-6">
@@ -108,7 +107,7 @@
 <!-- About Area End -->
 
 <!-- Top Cat Area Start -->
-<section class="top_cat">
+<section class="top-cat">
    <div class="container">
       <div class="row">
          <div class="col-xl-12">
@@ -130,48 +129,48 @@
          <div class="section-title text-center mb-60">
             <p>Book your table now</p>
             <h4>Exclusive Gallery</h4>
-            <span></span>
+            
          </div>
       </div>
    </div>
    <div class="row g-0">
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-1.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-1.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-1.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-2.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-2.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-2.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-3.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-3.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-3.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-4.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-4.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-4.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-5.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-5.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-5.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-6.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-6.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-6.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-7.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-7.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-7.jpg" alt="">
          </a>
       </div>
       <div class="col-lg-3 col-sm-4">
-         <a href="assets/img/gallery/gallery-8.jpg" class="single_gallery">
+         <a href="assets/img/gallery/gallery-8.jpg" class="single-gallery">
          <img src="assets/img/gallery/gallery-8.jpg" alt="">
          </a>
       </div>
@@ -187,7 +186,7 @@
                   <div class="section-title mb-60">
                      <p>Book your table now</p>
                      <h4>what clients say</h4>
-                     <span></span>
+                     
                   </div>
                </div>
             </div>
@@ -239,7 +238,7 @@
             <div class="section-title mb-60">
                <p>experienced team</p>
                <h4>our chefs</h4>
-               <span></span>
+               
             </div>
          </div>
       </div>
@@ -349,7 +348,7 @@
             <div class="section-title text-center mb-60">
                <p>Book your table now</p>
                <h4>Best dining experience</h4>
-               <span></span>
+               
             </div>
             <form action="#" class="reservation-form">
                <div class="row">

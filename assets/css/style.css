@@ -22,14 +22,379 @@
 */
 
 /* 1. Theme Default CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+body,
+html {
+  height: 100%;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pb-60 {
+  padding-bottom: 60px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+a {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #ff0022;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+*::-moz-selection {
+  background: #ff0022;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #ff0022;
+  color: #fff;
+  text-shadow: none;
+}
+*::-moz-placeholder {
+  font-size: 14px;
+  opacity: 1;
+}
+*::placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+.box_btn a {
+  display: inline-block;
+  background-color: #ff0022;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  position: relative;
+  transition: 0.3s;
+}
+.box_btn a:hover {
+  border-radius: 7px;
+}
+hr.horizontal {
+  background-color: #ddd;
+  margin: 0;
+}
+
+/* Section Title */
+.section-title h4 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #ff0022;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+.section-title p {
+  font-size: 20px;
+  margin-bottom: auto;
+  text-transform: lowercase;
+}
+.section-title h4:before,
+.section-title h4:after {
+  position: absolute;
+  content: "";
+  background-color: #ff0022;
+}
+.section-title h4:before {
+  width: 80px;
+  height: 1.5px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40px;
+}
+.section-title h4:after {
+  width: 40px;
+  height: 1.5px;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -20px;
+}
+.page-header {
+  position: relative;
+  z-index: 2;
+  background-image: url("../img/page-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0 70px 0;
+  color: #fff;
+  background-attachment: fixed;
+}
+.page-header:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  z-index: -1;
+  opacity: 0.85;
+}
+.page-header h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.page-header li {
+  display: inline-block;
+  margin-right: 5px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.page-header li a {
+  color: #fff;
+}
+.page-title h2 {
+  color: #ff0022;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 40px;
+}
+.page-title h2:before,
+.page-title h2:after {
+  position: absolute;
+  content: "";
+  background-color: #ff0022;
+}
+.page-title h2:before {
+  width: 80px;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+}
+.page-title h2:after {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 40px;
+  height: 1px;
+}
+
 /* 2. Header */
+.header.header-fixed.sticky {
+  padding: 0;
+}
+.header.header-fixed.sticky img {
+  max-width: 130px;
+}
+.header.header-fixed.sticky nav {
+  padding: 10px 0;
+}
+.header.header-fixed.sticky a {
+  font-size: 16px;
+}
 
 /* 3. Menu  */
+.mainmenu ul li ul {
+  position: absolute;
+  z-index: 3;
+  background-color: #fff;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  top: 45px;
+  padding: 5px 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  width: 150px;
+}
+.mainmenu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+.mainmenu ul li ul li {
+  display: block;
+  padding: 7px 0;
+}
+.mainmenu ul li ul li a {
+  padding: 0 !important;
+}
+
 /* 4. Slider */
 /* 5. About Us */
-/* 6. CTA */
-/* 7. Video */
+.about-text h4 {
+  text-transform: capitalize;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.about-text p {
+  margin-bottom: 5px;
+}
+.about-text ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  float: left;
+  width: 50%;
+  margin: 15px 0;
+}
+.about-text ul li {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 14px;
+}
+.about-text ul li i {
+  padding-right: 5px;
+  color: #333;
+}
+.about-img img {
+  width: 100%;
+}
+.about-img {
+  position: relative;
+  z-index: 2;
+}
+.about-img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.about-img-1,
+.about-img-2,
+.about-img-3,
+.about-img-4 {
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 15px;
+  margin: 15px;
+}
+.about-img-1 {
+  width: 45%;
+  height: 250px;
+}
+.about-img-2 {
+  width: 45%;
+  height: 210px;
+}
+.about-img-3 {
+  width: 45%;
+  height: 250px;
+}
+.about-img-4 {
+  width: 45%;
+  height: 220px;
+  margin-top: -50px;
+}
+
+/* 6. CTA Top */
+.top-cat {
+  position: relative;
+  z-index: 2;
+  background-image: url("../img/top_cta.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  color: #fff;
+  background-attachment: fixed;
+}
+.top-cat .section-title h4 {
+  font-size: 50px;
+  color: #fff;
+}
+.top-cat:before {
+  position: absolute;
+  content: "";
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.85;
+}
+.top-cat h4 {
+  color: #fff;
+  font-size: 50px;
+}
+.top-cat span {
+  font-weight: 900;
+  color: #ff0022;
+}
+.cta ul {
+  text-align: left;
+}
+
 /* 8. Gallery */
+a.single-gallery {
+  display: block;
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+}
+a.single-gallery img {
+  width: 100%;
+}
+a.single-gallery::before,
+a.single-gallery::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+a.single-gallery::before {
+  left: -50%;
+  top: 0;
+}
+a.single-gallery::after {
+  right: -50%;
+  top: 0;
+}
+a.single-gallery:hover {
+  cursor: crosshair;
+}
+a.single-gallery:hover::after {
+  right: 0;
+  cursor: crosshair;
+}
+a.single-gallery:hover::before {
+  left: 0;
+  cursor: crosshair;
+}
+
+/* Testimonials */
+
 /* 9. Teams */
 .single-team img {
   width: 100%;
@@ -65,7 +430,6 @@
   width: 100%;
   height: 100%;
 }
-
 .team-hover:after {
   position: absolute;
   content: "";
@@ -141,111 +505,6 @@
 }
 .video-area p {
   color: #fff;
-}
-
-/* 11. Reservation */
-/* 12. CTA Bottom */
-/* 13. Section Title */
-.section-title h4 {
-  font-size: 50px;
-  text-transform: capitalize;
-  color: #ff0022;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 25px;
-  font-weight: 700;
-}
-.section-title p {
-  font-size: 20px;
-  margin-bottom: auto;
-  text-transform: lowercase;
-}
-.section-title h4:before,
-.section-title h4:after {
-  position: absolute;
-  content: "";
-  background-color: #ff0022;
-}
-.section-title h4:before {
-  width: 80px;
-  height: 1.5px;
-  bottom: 0;
-  left: 50%;
-  margin-left: -40px;
-}
-.section-title h4:after {
-  width: 40px;
-  height: 1.5px;
-  bottom: -5px;
-  left: 50%;
-  margin-left: -20px;
-}
-.page-header {
-  position: relative;
-  z-index: 2;
-  background-image: url("../img/page-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 120px 0 70px 0;
-  color: #fff;
-  background-attachment: fixed;
-}
-
-.page-header:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #333;
-  z-index: -1;
-  opacity: 0.85;
-}
-
-.page-header h2 {
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: capitalize;
-}
-
-.page-header li {
-  display: inline-block;
-  margin-right: 5px;
-  font-style: italic;
-  text-transform: capitalize;
-}
-
-.page-header li a {
-  color: #fff;
-}
-.page-title h2 {
-  color: ff0022;
-  text-transform: capitalize;
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 12px;
-  margin-bottom: 40px;
-}
-.page-title h2:before,
-.page-title h2:after {
-  position: absolute;
-  content: "";
-  background-color: #ff0022;
-}
-.page-title h2:before {
-  width: 80px;
-  height: 1px;
-  left: 0;
-  bottom: 0;
-}
-.page-title h2:after {
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 40px;
-  height: 1px;
 }
 
 /* 14. Login & Register */
@@ -324,7 +583,7 @@
   position: absolute;
   left: 0;
   top: 7px;
-  border: 1px solid ff0022;
+  border: 1px solid #ff0022;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -432,123 +691,6 @@
 }
 
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-body {
-  font-family: "Poppins", sans-serif;
-  color: #333;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-body,
-html {
-  height: 100%;
-}
-
-p {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.pt-100 {
-  padding-top: 100px;
-}
-
-.pb-100 {
-  padding-bottom: 100px;
-}
-
-.pb-60 {
-  padding-bottom: 60px;
-}
-
-.mb-60 {
-  margin-bottom: 60px;
-}
-
-.img {
-  max-width: 100%;
-  transition: all 0.3s ease-out 0s;
-}
-
-a {
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  text-decoration: none;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  outline: none;
-  color: #ff0022;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
-}
-
-*::-moz-selection {
-  background: ff0022;
-  color: #fff;
-  text-shadow: none;
-}
-
-::selection {
-  background: ff0022;
-  color: #fff;
-  text-shadow: none;
-}
-
-*::-moz-placeholder {
-  font-size: 14px;
-  opacity: 1;
-}
-
-*::placeholder {
-  color: #555555;
-  font-size: 14px;
-  opacity: 1;
-}
-
-.box_btn a {
-  display: inline-block;
-  background-color: #ff0022;
-  color: #fff;
-  text-transform: capitalize;
-  padding: 10px 30px;
-  position: relative;
-  transition: 0.3s;
-  z-index: 2;
-  overflow: hidden;
-}
-.box_btn a:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: -100%;
-  top: 0;
-  background-color: #ff0022;
-  z-index: -1;
-  transition: 0.3s;
-}
-.box_btn a:hover::before {
-  left: 0;
-}
-
-hr.horizontal {
-  background-color: #ddd;
-  margin: 0;
-}
 
 .slicknav_menu {
   display: none;
@@ -580,7 +722,7 @@ input[type="submit"]:hover::before {
 
 input[type="submit"]:hover {
   background-color: #ff0022;
-  border-radius: 12px;
+  border-radius: 7px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -862,7 +1004,7 @@ input[type="submit"]:hover {
 }
 
 .mainmenu ul li.active a {
-  color: ff0022;
+  color: #ff0022;
 }
 
 .mainmenu ul li ul.sub-menu {
@@ -1078,144 +1220,6 @@ input[type="submit"]:hover {
   font-weight: 600;
 }
 
-.top_cat {
-  position: relative;
-  z-index: 2;
-  background-image: url("../img/top_cta.jpg");
-  background-position: center;
-  background-size: cover;
-  padding: 50px 0;
-  color: #fff;
-  background-attachment: fixed;
-}
-
-.top_cat .section-title h4 {
-  font-size: 50px;
-  color: #fff;
-}
-
-.top_cat:before {
-  position: absolute;
-  content: "";
-  background-color: #333;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  opacity: 0.85;
-}
-
-.top_cat h4 {
-  color: #fff;
-  font-size: 50px;
-}
-
-.top_cat span {
-  font-weight: 900;
-  color: ff0022;
-}
-
-.cta ul {
-  text-align: left;
-}
-
-/* 14. Page Title */
-
-/* 4. About Page */
-
-.about_content {
-  margin: 30px 0;
-}
-
-.single_testimonial h4 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.menu_style1 .single_menu_list {
-  padding-left: 0;
-  text-align: center;
-  margin-bottom: 70px;
-}
-
-.menu_style1 .single_menu_list img {
-  position: static;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 45px;
-}
-
-.menu_tab {
-  width: auto;
-  margin: 0 auto;
-}
-
-.menu_tab .nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-  color: white;
-  background-color: #ff0022;
-  border-color: #ff0022;
-}
-
-.nav-item a {
-  color: #333;
-}
-
-/* 6. Reservation */
-
-/* 9. Gallery Page */
-
-a.single_gallery {
-  display: block;
-  position: relative;
-  transition: 0.3s;
-  overflow: hidden;
-}
-
-a.single_gallery img {
-  width: 100%;
-}
-
-a.single_gallery::before,
-a.single_gallery::after {
-  position: absolute;
-  content: "";
-  width: 50%;
-  height: 100%;
-  background-color: #333;
-  opacity: 0.85;
-  transition: 0.3s;
-}
-
-a.single_gallery::before {
-  left: -50%;
-  top: 0;
-}
-
-a.single_gallery::after {
-  right: -50%;
-  top: 0;
-}
-
-a.single_gallery:hover {
-  cursor: crosshair;
-}
-
-a.single_gallery:hover::after {
-  right: 0;
-  cursor: crosshair;
-}
-
-a.single_gallery:hover::before {
-  left: 0;
-  cursor: crosshair;
-}
-
-/* 10. Testimonial Page */
-
 /* Testimonilas Area */
 .testimonial-area {
   background-size: cover;
@@ -1379,98 +1383,7 @@ a.single_gallery:hover::before {
   font-weight: 600 !important;
   padding: 10px !important;
 }
-/* 11. Team Area CSS */
 
-/* 12. Video Area CSS */
-
-.single-about i.bi {
-  font-size: 25px;
-}
-.single-about h4 {
-  margin: 20px 0;
-  font-weight: 500;
-  text-transform: capitalize;
-  font-size: 22px;
-}
-.single-about a {
-  text-transform: capitalize;
-  margin-top: 10px;
-  display: block;
-  color: #ff0022;
-}
-
-.about-text h4 {
-  text-transform: capitalize;
-  font-size: 28px;
-  margin-bottom: 10px;
-  font-weight: 700;
-}
-.about-text p {
-  margin-bottom: 5px;
-}
-.about-text ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-  float: left;
-  width: 50%;
-  margin: 15px 0;
-}
-.about-text ul li {
-  margin-bottom: 10px;
-  color: #646f79;
-  font-size: 14px;
-}
-.about-text ul li,
-.single-feature ul li {
-  margin-bottom: 10px;
-  color: #646f79;
-  font-size: 14px;
-}
-.about-text ul li i,
-.single-feature ul li i {
-  padding-right: 5px;
-  color: #646f79;
-}
-
-.about-img img {
-  width: 100%;
-}
-.about-img {
-  position: relative;
-  z-index: 2;
-}
-.about-img {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.about-img-1,
-.about-img-2,
-.about-img-3,
-.about-img-4 {
-  background-size: cover;
-  background-position: center;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 15px;
-  margin: 15px;
-}
-.about-img-1 {
-  width: 45%;
-  height: 250px;
-}
-.about-img-2 {
-  width: 45%;
-  height: 210px;
-}
-.about-img-3 {
-  width: 45%;
-  height: 250px;
-}
-.about-img-4 {
-  width: 45%;
-  height: 220px;
-  margin-top: -50px;
-}
 .slider .owl-dots div {
   width: 20px;
   height: 20px;
@@ -1497,18 +1410,7 @@ a.single_gallery:hover::before {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.header.header-fixed.sticky {
-  padding: 0;
-}
-.header.header-fixed.sticky img {
-  max-width: 130px;
-}
-.header.header-fixed.sticky nav {
-  padding: 10px 0;
-}
-.header.header-fixed.sticky a {
-  font-size: 16px;
-}
+
 .menu-cat {
   position: sticky;
   top: 100px !important;
@@ -1518,31 +1420,6 @@ a.single_gallery:hover::before {
 }
 
 /* Login & Registration */
-
-.mainmenu ul li ul {
-  position: absolute;
-  z-index: 3;
-  background-color: #fff;
-  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
-  top: 45px;
-  padding: 5px 10px;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s;
-  width: 150px;
-}
-.mainmenu ul li:hover ul {
-  opacity: 1;
-  visibility: visible;
-}
-.mainmenu ul li ul li {
-  display: block;
-  padding: 7px 0;
-}
-.mainmenu ul li ul li a {
-  padding: 0 !important;
-}
-
 .order-list tr td:nth-child(1) {
   display: inline-block;
   width: 70%;
@@ -1589,6 +1466,9 @@ a.single_gallery:hover::before {
 }
 .single-booking input {
   margin-bottom: 15px;
+}
+.reservation-form .box_btn {
+  margin-top: 20px !important;
 }
 .navbar .container-fluid {
   padding: 0;

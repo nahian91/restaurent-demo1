@@ -28,47 +28,47 @@
       </div>
       <div class="row g-0">
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-1.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-1.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-1.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-2.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-2.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-2.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-3.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-3.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-3.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-4.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-4.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-4.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-5.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-5.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-5.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-6.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-6.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-6.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-7.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-7.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-7.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-8.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-8.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-8.jpg" alt="" />
             </a>
          </div>
          <div class="col-lg-3 col-sm-4">
-            <a href="assets/img/gallery/gallery-9.jpg" class="single_gallery">
+            <a href="assets/img/gallery/gallery-9.jpg" class="single-gallery">
             <img src="assets/img/gallery/gallery-9.jpg" alt="" />
             </a>
          </div>

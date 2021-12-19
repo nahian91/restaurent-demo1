@@ -49,7 +49,7 @@
 
 		/* Magnific Image Popup
 		============================*/
-		$('.single_gallery').magnificPopup({
+		$('.single-gallery').magnificPopup({
 			type: 'image',
 			gallery: {
 				enabled: true
