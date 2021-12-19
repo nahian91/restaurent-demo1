@@ -56,6 +56,7 @@
                         <div class="collapse navbar-collapse mainmenu" id="navbarSupportedContent">
                            <ul class="navbar-nav ms-auto">
                               <li><a href="index.php">Home</a></li>
+                              <li><a href="about.php">About</a></li>
                               <li><a href="menu.php">Order Online</a></li>
                               <li><a href="reservation.php">Reservation</a></li>
                               <li><a href="gallery.php">Gallery</a></li>
