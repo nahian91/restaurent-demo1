@@ -470,7 +470,9 @@ a.single-gallery:hover::before {
 .team-social {
   margin-top: 15px;
 }
-
+.table > :not(:first-child) {
+  border-top: none;
+}
 /* 10. Video */
 .video-area {
   position: relative;
@@ -1472,4 +1474,28 @@ input[type="submit"]:hover {
 }
 .navbar .container-fluid {
   padding: 0;
+}
+
+/* Cart */
+.cart .order-list tr {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cart .order-list tr td:nth-child(1) {
+  width: 60%;
+}
+.cart .order-list tr td:nth-child(2) {
+  width: 10%;
+}
+.cart-btn {
+  display: inline-block;
+  background-color: #ff0022;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  position: relative;
+  transition: 0.3s;
+  border: 0;
+  margin-top: 25px;
 }
